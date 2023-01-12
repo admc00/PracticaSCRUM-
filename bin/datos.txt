@@ -1,0 +1,9 @@
+H. h1
+T. tarea1 1 4 3
+T. tarea2 4 1 7
+H. h2
+T. Tarea3 4 6 1
+
+
+vs 3
+d 1
