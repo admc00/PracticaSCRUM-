@@ -1,2 +1,3 @@
 Cambiar ruta de donde se lee el fichero a ruta donde se leera en tu ordenador.
 En el archivo datos estan creadas las historias y tareas que hemos usado para probar el programa. 
+En el archivo datosSprint estan guardados los datos duracion y velocidad del sprint.
