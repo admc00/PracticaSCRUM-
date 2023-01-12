@@ -20,6 +20,8 @@ import java.text.ParseException;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
+import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import javax.swing.JPanel;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 import javax.swing.table.DefaultTableModel;
@@ -88,7 +90,8 @@ public class ControladorRealizarSprint implements ActionListener {
                     DefaultTableModel modelo = (DefaultTableModel) vistarealizarsprint.jTableTareasSprint.getModel();
                     modelo.removeRow(vistarealizarsprint.jTableTareasSprint.getSelectedRow());
                     vistarealizarsprint.jTextFieldValorTarea.setText("");
-                }
+                }else
+                   JOptionPane.showMessageDialog(null,"ERROR!!!!!! NO ES POSIBLE RESTAR");
             }
             break;
             case "Finalizar Sprint": {
